@@ -1,0 +1,24 @@
+/*
+ * bsp.h
+ *
+ *  Created on: Aug 25, 2025
+ *      Author: Moneeb
+ */
+
+#ifndef BSP_H_
+#define BSP_H_
+
+#define LED_PIN (1U << 12)  // Green LED
+
+#include <stdint.h>
+#include <stdbool.h>
+
+void led_init(void);
+void led_on(void);
+void led_off(void);
+void button_init(void);
+bool get_btn_state(void);
+void led_toggle(uint32_t dly);
+
+
+#endif /* BSP_H_ */
