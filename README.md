@@ -1,5 +1,5 @@
 ## Multi-Slot Bootloader for STM32
-This is a bootloader project for STM32 microcontrollers, demonstrating a multi-slot architecture. The bootloader can jump to different applications stored at separate memory locations, making it a reusable template for more advanced bootloader work.
+This is a bootloader project for STM32 MCU, demonstrating a multi-slot architecture. The bootloader can jump to different applications stored at separate memory locations, making it a reusable template for more advanced bootloader work.
 
 ## Key features:
 - Jumps to multiple apps based on button press or UART command
